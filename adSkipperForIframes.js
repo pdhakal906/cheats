@@ -5,8 +5,8 @@
 // The code gets the iframe by TagName and uses the Fullscreen API to make the video full screen,
 // without one having to click on the full screen button, which triggers the redirect the to advertisement site.
 
-const iframes = document.getElementsByTagName('iframe');
-const iframe = iframes[0];
+var iframes = document.getElementsByTagName('iframe');
+var iframe = iframes[0];
 // Function to make the iframe fullscreen
 function makeIframeFullscreen() {
     if (iframe.requestFullscreen) {
